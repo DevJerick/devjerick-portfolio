@@ -84,4 +84,8 @@ nav {
   .navLinks.open {
     right: 0;
   }
+
+  ::-webkit-scrollbar {
+    width: 1px;
+  }
 }
