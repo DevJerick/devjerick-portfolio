@@ -1,0 +1,151 @@
+/* .main {
+  background-image: url(../img/Main-Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+} */
+
+.mainContainer {
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1440px;
+}
+
+.main-text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.text-container {
+  padding: 0 60px;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.main-text h1 {
+  font-size: 40px;
+  color: #333333;
+}
+
+.main-text .text-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-text h1 span {
+  color: #6c63ff;
+  font-size: 45px;
+}
+
+.main-text h3 {
+  font-size: 25px;
+  margin: 15px 0;
+  color: rgb(87, 84, 84);
+}
+
+.main-text button {
+  background: #337ab7;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+.main-text button:hover {
+  background: #5986ad;
+  transform: translateY(-2px);
+
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.main-text .social-link ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.main-text .social-link {
+  margin-top: 20px;
+}
+
+.social-link a:hover {
+  color: #6c63ff;
+}
+
+.main-text .social-link ul li a {
+  font-size: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mainContainer .main-image img {
+    width: 80%;
+    object-fit: cover;
+    animation: app-bounce 3s ease infinite;
+  }
+}
+
+@keyframes app-bounce {
+  0%,
+  100% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 1160px) {
+  .main-text h1 {
+    font-size: 35px;
+  }
+
+  .main-text h1 span {
+    font-size: 40px;
+  }
+
+  .main-text h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .text-container {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    gap: 5rem;
+    padding: 40px 0;
+  }
+
+  .main-text,
+  .main-image {
+    width: 100%;
+  }
+
+  .text-container {
+    padding: 0 20px;
+  }
+}

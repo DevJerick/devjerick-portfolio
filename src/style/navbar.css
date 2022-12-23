@@ -1,0 +1,87 @@
+nav {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 /6%),
+    0 0 2px rgb(0 0 0 / 7%);
+}
+
+.navContainer {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 5%;
+}
+
+.navContainer .logo {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #333;
+}
+
+.navContainer .logo span {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navContainer .logo i {
+  font-size: 40px;
+  color: #6c63ff;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navLinks a {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+.navLinks a:hover {
+  color: #6c63ff;
+}
+
+.navContainer button {
+  background: none;
+  display: none;
+  border: none;
+}
+
+.navContainer button i {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .navContainer {
+    padding: 15px 2%;
+  }
+
+  .navContainer button {
+    display: block;
+  }
+
+  .navContainer .navLinks {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    padding: 20px;
+    z-index: 1;
+    background: #eee;
+    transition: all 0.5s ease;
+  }
+
+  .navLinks.open {
+    right: 0;
+  }
+}
