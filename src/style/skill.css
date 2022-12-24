@@ -1,0 +1,41 @@
+.skill {
+  width: 100%;
+  margin: 100px 0;
+}
+
+.skill-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skill-container h2 {
+  color: #333;
+  font-weight: 500;
+  margin: 30px 0;
+}
+
+.skill-container .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.logo-container img {
+  width: 15%;
+  transition: all 0.5s ease;
+}
+
+.logo-container img:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .skill-container h2 {
+    font-size: 20px;
+  }
+}
