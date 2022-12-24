@@ -68,6 +68,7 @@
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column-reverse;
+    gap: 3rem;
   }
 
   .about-text,

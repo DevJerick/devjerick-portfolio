@@ -141,4 +141,16 @@
   .text-container {
     padding: 0 20px;
   }
+
+  .main-text h1 {
+    font-size: 30px;
+  }
+
+  .main-text h1 span {
+    font-size: 35px;
+  }
+
+  .main-text h3 {
+    font-size: 15px;
+  }
 }
