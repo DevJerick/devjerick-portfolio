@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Dev from "../img/dev3.svg";
 import "../style/main.css";
 
@@ -13,7 +14,9 @@ const Main = () => {
               I'm <span>Jerick Sejas</span>
             </h1>
             <h3>Web Developer</h3>
-            <button>About me</button>
+            <button>
+              <a href='#about'>About me</a>
+            </button>
             <div className='social-link'>
               <ul>
                 <li>
