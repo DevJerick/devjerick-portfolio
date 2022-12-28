@@ -40,17 +40,7 @@ const Navbar = () => {
             }}>
             About
           </Links>
-          <Links
-            to='skill'
-            spy={true}
-            smooth={true}
-            offset={-20}
-            duration={500}
-            onClick={() => {
-              setClick(false);
-            }}>
-            Skill
-          </Links>
+          <Link to='/experience'>Experience</Link>
           <Link to='/project'>Project</Link>
           <Link to='/contact'>Contact</Link>
         </div>
