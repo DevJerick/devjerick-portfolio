@@ -9,11 +9,9 @@ import { BiDesktop } from "react-icons/bi";
 import { FaGraduationCap } from "react-icons/fa";
 
 const Experience = () => {
-  const WorkIcon = () => {
-    return <i className='bx bxs-briefcase'></i>;
-  };
   return (
     <div className='experience'>
+      <h1>Experience</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className='vertical-timeline-element--work'

@@ -1,0 +1,104 @@
+.project {
+  width: 100%;
+}
+
+.project-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.project-title {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.project-card {
+  width: 400px;
+  height: 500px;
+  border: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  margin: 10px;
+  text-align: center;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+  animation: zoomIn 0.5s ease-in;
+}
+
+@keyframes zoomIn {
+  0% {
+    width: 200px;
+  }
+
+  100% {
+    width: 400px;
+  }
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: rgb(75, 74, 74);
+  margin-bottom: 20px;
+}
+
+.project-container div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-container button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #337ab7;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.project-container .btn-outline {
+  background: transparent;
+  border: 1px solid #337ab7;
+}
+
+.project-container .btn-outline span {
+  color: #337ab7;
+}
+.project-container .btn-outline i {
+  color: #337ab7;
+}
+
+.project-container button span {
+  color: #fff;
+  font-size: 16px;
+}
+
+.project-container button i {
+  color: #fff;
+  font-size: 18px;
+}
