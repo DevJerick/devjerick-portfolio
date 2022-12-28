@@ -1,4 +1,50 @@
 .experience {
-  background: #eee;
-  padding: 20px 0;
+  position: relative;
+  border: 1px solid #eee;
+}
+
+.experience-title {
+  margin: 20px 0;
+  text-align: center;
+  color: #333;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wave {
+  width: 100%;
+  position: absolute;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.wave img {
+  height: 800px;
+}
+
+.wave1 img {
+  height: 600px;
+}
+
+.wave1 {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.title {
+  color: #222;
+}
+
+.sub-title {
+  color: #444;
+}
+
+.description {
+  color: #666;
 }

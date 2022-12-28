@@ -29,20 +29,30 @@ const Project = () => {
           </p>
 
           <div>
-            <button>
-              <span>Code</span>
-              <i className='bx bx-code-alt'></i>
-            </button>
+            <a
+              href='https://github.com/DevJerick/Canbo'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn'>
+                <span>Code</span>
+                <i className='bx bx-code-alt'></i>
+              </button>
+            </a>
 
-            <button className='btn-outline'>
-              <span>Live</span>
-              <i class='bx bx-show-alt'></i>
-            </button>
+            <a
+              href='https://canbo.vercel.app/'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn-outline'>
+                <span>Live</span>
+                <i class='bx bx-show-alt'></i>
+              </button>
+            </a>
           </div>
         </div>
 
         <div className='project-card'>
-          <img src={pikit} alt='canbo' />
+          <img src={pikit} alt='pikit' />
           <h3 className='project-name'>123Pikit Band Website</h3>
           <p className='description'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque eum
@@ -52,15 +62,25 @@ const Project = () => {
           </p>
 
           <div>
-            <button>
-              <span>Code</span>
-              <i className='bx bx-code-alt'></i>
-            </button>
+            <a
+              href='https://github.com/DevJerick/123pikit-website'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn'>
+                <span>Code</span>
+                <i className='bx bx-code-alt'></i>
+              </button>
+            </a>
 
-            <button className='btn-outline'>
-              <span>Live</span>
-              <i class='bx bx-show-alt'></i>
-            </button>
+            <a
+              href='https://123pikit-website.vercel.app/'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn-outline'>
+                <span>Live</span>
+                <i class='bx bx-show-alt'></i>
+              </button>
+            </a>
           </div>
         </div>
 
@@ -75,15 +95,25 @@ const Project = () => {
           </p>
 
           <div>
-            <button>
-              <span>Code</span>
-              <i className='bx bx-code-alt'></i>
-            </button>
+            <a
+              href='https://github.com/DevJerick/react-app'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn'>
+                <span>Code</span>
+                <i className='bx bx-code-alt'></i>
+              </button>
+            </a>
 
-            <button className='btn-outline'>
-              <span>Live</span>
-              <i class='bx bx-show-alt'></i>
-            </button>
+            <a
+              href='https://todo-app-react-rho-liart.vercel.app/'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn-outline'>
+                <span>Live</span>
+                <i class='bx bx-show-alt'></i>
+              </button>
+            </a>
           </div>
         </div>
 
@@ -98,20 +128,30 @@ const Project = () => {
           </p>
 
           <div>
-            <button>
-              <span>Code</span>
-              <i className='bx bx-code-alt'></i>
-            </button>
+            <a
+              href='https://github.com/DevJerick/Starbucks-Clone-Practice'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn'>
+                <span>Code</span>
+                <i className='bx bx-code-alt'></i>
+              </button>
+            </a>
 
-            <button className='btn-outline'>
-              <span>Live</span>
-              <i class='bx bx-show-alt'></i>
-            </button>
+            <a
+              href='https://devjerick-starbucks-clone.vercel.app/'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn-outline'>
+                <span>Live</span>
+                <i class='bx bx-show-alt'></i>
+              </button>
+            </a>
           </div>
         </div>
 
         <div className='project-card'>
-          <img src={cat} alt='canbo' />
+          <img src={cat} alt='cat' />
           <h3 className='project-name'>Generate Cat Fact</h3>
           <p className='description'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque eum
@@ -121,15 +161,25 @@ const Project = () => {
           </p>
 
           <div>
-            <button>
-              <span>Code</span>
-              <i className='bx bx-code-alt'></i>
-            </button>
+            <a
+              href='https://github.com/DevJerick/CatFact-Generator-react'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn'>
+                <span>Code</span>
+                <i className='bx bx-code-alt'></i>
+              </button>
+            </a>
 
-            <button className='btn-outline'>
-              <span>Live</span>
-              <i class='bx bx-show-alt'></i>
-            </button>
+            <a
+              href='https://cat-fact-generator-react.vercel.app/'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn-outline'>
+                <span>Live</span>
+                <i class='bx bx-show-alt'></i>
+              </button>
+            </a>
           </div>
         </div>
 
@@ -144,15 +194,25 @@ const Project = () => {
           </p>
 
           <div>
-            <button>
-              <span>Code</span>
-              <i className='bx bx-code-alt'></i>
-            </button>
+            <a
+              href='https://github.com/DevJerick/kfc-site-clone'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn'>
+                <span>Code</span>
+                <i className='bx bx-code-alt'></i>
+              </button>
+            </a>
 
-            <button className='btn-outline'>
-              <span>Live</span>
-              <i class='bx bx-show-alt'></i>
-            </button>
+            <a
+              href='https://kfc-site-clone.vercel.app/'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='btn-outline'>
+                <span>Live</span>
+                <i class='bx bx-show-alt'></i>
+              </button>
+            </a>
           </div>
         </div>
       </div>
