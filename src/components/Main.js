@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import Dev from "../img/dev3.svg";
 import "../style/main.css";
 
@@ -15,7 +15,15 @@ const Main = () => {
             </h1>
             <h3>Web Developer</h3>
             <button>
-              <a href='#about'>About me</a>
+              <Link
+                to='about'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}>
+                Read More
+              </Link>
+              <i className='bx bx-right-arrow-alt'></i>
             </button>
             <div className='social-link'>
               <ul>

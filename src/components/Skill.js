@@ -17,24 +17,79 @@ import npm from "../img/logo/npm.svg";
 
 const Skill = () => {
   return (
-    <div className='skill'>
+    <div className='skill' id='skill'>
       <div className='skill-container'>
-        <h2>I have experience with these technologies</h2>
+        <h2>I have experiences with these technologies</h2>
         <div className='logo-container'>
-          <img src={html} alt='html-logo' />
-          <img src={css} alt='css-logo' />
-          <img src={js} alt='js-logo' />
-          <img src={react} alt='react-logo' />
-          <img src={java} alt='java-logo' />
-          <img src={php} alt='php-logo' />
-          <img src={mysql} alt='mysql-logo' />
-          <img src={mssql} alt='mssql-logo' />
-          <img src={postgres} alt='postgres-logo' />
-          <img src={sass} alt='sass-logo' />
-          <img src={bootstrap} alt='bootstrap-logo' />
-          <img src={git} alt='git-logo' />
-          <img src={github} alt='github-logo' />
-          <img src={npm} alt='npm-logo' />
+          <div className='card'>
+            <h4>HTML</h4>
+            <img src={html} alt='html-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>CSS</h4>
+            <img src={css} alt='css-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>JavaScript</h4>
+            <img src={js} alt='js-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>React</h4>
+            <img src={react} alt='react-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>Java</h4>
+            <img src={java} alt='java-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>PHP</h4>
+            <img src={php} alt='php-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>MySQL</h4>
+            <img src={mysql} alt='mysql-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>Microsoft SQL</h4>
+            <img src={mssql} alt='mssql-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>PostgreSQL</h4>
+            <img src={postgres} alt='postgres-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>Sass</h4>
+            <img src={sass} alt='sass-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>Bootstrap</h4>
+            <img src={bootstrap} alt='bootstrap-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>Git</h4>
+            <img src={git} alt='git-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>Github</h4>
+            <img src={github} alt='github-logo' />
+          </div>
+
+          <div className='card'>
+            <h4>NPM</h4>
+            <img src={npm} alt='npm-logo' />
+          </div>
         </div>
       </div>
     </div>

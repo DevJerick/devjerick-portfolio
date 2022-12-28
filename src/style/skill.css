@@ -26,16 +26,29 @@
 }
 
 .logo-container img {
-  width: 15%;
+  width: 60%;
   transition: all 0.5s ease;
 }
 
 .logo-container img:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+}
+.card h4 {
+  margin-bottom: 5px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
   .skill-container h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
