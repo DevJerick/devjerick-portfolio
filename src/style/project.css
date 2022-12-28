@@ -1,5 +1,31 @@
 .project {
   width: 100%;
+  position: relative;
+  border: 1px solid #eee;
+}
+
+.wave {
+  width: 100%;
+  position: absolute;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.wave img {
+  height: 700px;
+}
+
+.wave1 img {
+  height: 800px;
+}
+
+.wave1 {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: -1;
 }
 
 .project-container {
@@ -17,6 +43,7 @@
   margin: 40px 0;
   color: #333;
   font-weight: 600;
+  font-size: 40px;
 }
 
 .project-card {

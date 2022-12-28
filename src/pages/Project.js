@@ -6,10 +6,16 @@ import todo from "../img/project/todo.PNG";
 import starbucks from "../img/project/startbucks.PNG";
 import cat from "../img/project/cat-generator.PNG";
 import kfc from "../img/project/kfc.PNG";
+import wave from "../img/wave.svg";
+import wave1 from "../img/wave1.svg";
 
 const Project = () => {
   return (
     <div className='project'>
+      <div className='wave'>
+        <img src={wave} alt='wave' />
+      </div>
+
       <h1 className='project-title'>My Project</h1>
       <div className='project-container'>
         <div className='project-card'>
@@ -149,6 +155,9 @@ const Project = () => {
             </button>
           </div>
         </div>
+      </div>
+      <div className='wave1'>
+        <img src={wave1} alt='wave' />
       </div>
     </div>
   );
