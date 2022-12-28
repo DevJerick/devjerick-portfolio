@@ -5,7 +5,7 @@
 .project-container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 3rem 20px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@
 
 .project-title {
   text-align: center;
-  margin: 20px 0;
+  margin: 40px 0;
   color: #333;
   font-weight: 600;
 }
@@ -35,13 +35,12 @@
   margin: 10px;
   text-align: center;
   margin: 0 auto;
-  transition: all 0.5s ease;
   animation: zoomIn 0.5s ease-in;
 }
 
 @keyframes zoomIn {
   0% {
-    width: 200px;
+    width: 350px;
   }
 
   100% {
@@ -76,7 +75,7 @@
   align-items: center;
   gap: 5px;
   background: #337ab7;
-  padding: 5px 12px;
+  padding: 9px 15px;
   border: none;
   border-radius: 5px;
 }
@@ -88,9 +87,11 @@
 
 .project-container .btn-outline span {
   color: #337ab7;
+  font-weight: 600;
 }
 .project-container .btn-outline i {
   color: #337ab7;
+  font-weight: 600;
 }
 
 .project-container button span {
