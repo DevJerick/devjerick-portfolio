@@ -1,0 +1,26 @@
+.contact {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.contact-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px;
+}
+
+.contact-title {
+  text-align: center;
+  margin: 40px 0;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 5rem;
+  }
+}

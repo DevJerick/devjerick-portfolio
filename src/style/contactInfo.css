@@ -1,0 +1,58 @@
+.contactInfo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: slideInFromLeft 1s ease-in;
+}
+
+.address,
+.my-email,
+.contact-number {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  border-bottom: 2px solid #ddd;
+  padding: 20px;
+  width: 80%;
+}
+
+.address i,
+.my-email i,
+.contact-number i {
+  font-size: 40px;
+  color: #337ab7;
+}
+
+.address-title,
+.email-title,
+.contact-number-title {
+  font-size: 20px;
+  color: #333;
+}
+
+.address-sub-title,
+.email-sub-title,
+.contact-sub-title {
+  font-size: 14px;
+  color: #666;
+  font-weight: 600;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .contactInfo {
+    width: 100%;
+  }
+}
