@@ -1,14 +1,20 @@
-import React, { useRef } from "react";
+import { useRef, useState } from "react";
 import "../style/email.css";
 import emailjs from "emailjs-com";
+import Modal from "./Modal";
 
-const Email = () => {
+const Email = ({ modalOpen }) => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail", "template_gb9hdyp", form.current, "is1Nuaz7P65FstGak")
+      .sendForm(
+        "service_zghf4pi",
+        "template_gb9hdyp",
+        form.current,
+        "is1Nuaz7P65FstGak"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -17,6 +23,7 @@ const Email = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
   return (
     <div className='email'>
@@ -24,21 +31,41 @@ const Email = () => {
         <h2>Let's Talk</h2>
         <div className='form-control'>
           <label>Name</label>
-          <input type='text' placeholder='John Doe' name='name' />
+          <input type='text' placeholder='John Doe' name='name' required />
         </div>
         <div className='form-control'>
           <label>Email</label>
-          <input type='text' placeholder='example@gmail.com' name='email' />
+          <input
+            type='text'
+            placeholder='example@gmail.com'
+            name='email'
+            required
+          />
         </div>
         <div className='form-control'>
           <label>Subject</label>
-          <input type='text' placeholder='Review Portfolio' name='subject' />
+          <input
+            type='text'
+            placeholder='Review Portfolio'
+            name='subject'
+            required
+          />
         </div>
         <div className='form-control'>
           <label>Message</label>
-          <textarea name='message' placeholder='Your Message...'></textarea>
+          <textarea
+            name='message'
+            placeholder='Your Message...'
+            required></textarea>
         </div>
-        <input className='btn-send' type='submit' value='Send' />
+        <input
+          onClick={() => {
+            modalOpen(true);
+          }}
+          className='btn-send'
+          type='submit'
+          value='Send'
+        />
       </form>
     </div>
   );

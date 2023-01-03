@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../style/navbar.css";
 import { Link, useLocation } from "react-router-dom";
-import { Link as Links } from "react-scroll";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -29,17 +28,6 @@ const Navbar = () => {
 
         <div className={classChange}>
           <Link to='/'>Home</Link>
-          <Links
-            to='about'
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            onClick={() => {
-              setClick(false);
-            }}>
-            About
-          </Links>
           <Link to='/experience'>Experience</Link>
           <Link to='/project'>Project</Link>
           <Link to='/contact'>Contact</Link>

@@ -12,12 +12,15 @@ const About = () => {
         <div className='about-text'>
           <h1 className='title'>About Me</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
-            sint obcaecati molestiae blanditiis illum, architecto molestias
+            I consider myself a self-taught person constantly learning and
+            always looking for new things to improve. I'm Looking forward for
+            the opportunity to continue my career as a developer to create and
+            build a real world project to enhance my knowledge and skill.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            modi amet possimus adipisci, dolores perferendis!
+            Right now I'm focusing on the front-end and I also plan to study the
+            back-end because I have a little experience here when I was still
+            studying in college. I want to see want happens if I don't give up.
           </p>
           <button>
             <span>Download CV </span>

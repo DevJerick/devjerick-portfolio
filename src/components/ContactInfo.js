@@ -1,4 +1,3 @@
-import React from "react";
 import "../style/contactInfo.css";
 
 const ContactInfo = () => {

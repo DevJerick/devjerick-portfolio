@@ -72,6 +72,11 @@ form {
   border: none;
 }
 
+.btn-send:hover {
+  cursor: pointer;
+  background: #ee7d86;
+}
+
 form h2 {
   color: #fff;
   font-weight: 600;

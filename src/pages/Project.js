@@ -16,7 +16,7 @@ const Project = () => {
         <img src={wave} alt='wave' />
       </div>
 
-      <h1 className='project-title'>My Project</h1>
+      <h1 className='project-title'>My Personal Project</h1>
       <div className='project-container'>
         <div className='project-card'>
           <img src={canbo} alt='canbo' />
@@ -24,9 +24,10 @@ const Project = () => {
           <p className='description'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque eum
             sit ex deserunt aliquid distinctio corrupti, perferendis dicta
-            totam, quibusdam dolores explicabo? Consequatur dolor sed omnis
-            labore perferendis neque iste?
+            totam, quibusdam dolores explicabo?
           </p>
+
+          <p className='description'>#HTML #CSS #JavaScript</p>
 
           <div>
             <a
@@ -55,11 +56,12 @@ const Project = () => {
           <img src={pikit} alt='pikit' />
           <h3 className='project-name'>123Pikit Band Website</h3>
           <p className='description'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque eum
-            sit ex deserunt aliquid distinctio corrupti, perferendis dicta
-            totam, quibusdam dolores explicabo? Consequatur dolor sed omnis
-            labore perferendis neque iste?
+            123Pikit is my favorite Alternative-Rock local band from the
+            Philippines. The content of this website their songs, lyrics and
+            also their embedded music platform.
           </p>
+
+          <p className='description'>#HTML #CSS #JavaScript</p>
 
           <div>
             <a
@@ -88,11 +90,12 @@ const Project = () => {
           <img src={todo} alt='todo' />
           <h3 className='project-name'>Todo-List App</h3>
           <p className='description'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque eum
-            sit ex deserunt aliquid distinctio corrupti, perferendis dicta
-            totam, quibusdam dolores explicabo? Consequatur dolor sed omnis
-            labore perferendis neque iste?
+            This is a simple Todo List Web App you can add a list of tasks you
+            need to complete or things that you want to do and delete if the
+            task is complete or done.
           </p>
+
+          <p className='description'>#React #HTML #CSS #JavaScript</p>
 
           <div>
             <a
@@ -123,9 +126,10 @@ const Project = () => {
           <p className='description'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque eum
             sit ex deserunt aliquid distinctio corrupti, perferendis dicta
-            totam, quibusdam dolores explicabo? Consequatur dolor sed omnis
-            labore perferendis neque iste?
+            totam, quibusdam dolores explicabo?
           </p>
+
+          <p className='description'>#HTML #CSS #JavaScript</p>
 
           <div>
             <a
@@ -154,11 +158,12 @@ const Project = () => {
           <img src={cat} alt='cat' />
           <h3 className='project-name'>Generate Cat Fact</h3>
           <p className='description'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque eum
-            sit ex deserunt aliquid distinctio corrupti, perferendis dicta
-            totam, quibusdam dolores explicabo? Consequatur dolor sed omnis
-            labore perferendis neque iste?
+            A simple Generate Cat Fact using catfact.ninja/fact API. Randomly
+            change the information about cat and the length of the letters
+            everytime you click the button.
           </p>
+
+          <p className='description'>#React #HTML #CSS #JavaScript</p>
 
           <div>
             <a
@@ -189,9 +194,10 @@ const Project = () => {
           <p className='description'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque eum
             sit ex deserunt aliquid distinctio corrupti, perferendis dicta
-            totam, quibusdam dolores explicabo? Consequatur dolor sed omnis
-            labore perferendis neque iste?
+            totam, quibusdam dolores explicabo?
           </p>
+
+          <p className='description'>#React #HTML #CSS #JavaScript</p>
 
           <div>
             <a
