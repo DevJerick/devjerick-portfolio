@@ -20,12 +20,14 @@ const About = () => {
           <p>
             Right now I'm focusing on the front-end and I also plan to study the
             back-end because I have a little experience here when I was still
-            studying in college. I want to see want happens if I don't give up.
+            studying in college. I want to see want happen if I don't give up.
           </p>
-          <button>
-            <span>Download CV </span>
-            <i className='bx bxs-download'></i>
-          </button>
+          <a href='JERICK SEJAS RESUME.pdf' download='JERICK SEJAS RESUME.pdf'>
+            <button>
+              <span>Download CV </span>
+              <i className='bx bxs-download'></i>
+            </button>
+          </a>
         </div>
       </div>
     </div>
