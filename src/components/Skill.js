@@ -14,17 +14,23 @@ import bootstrap from "../img/logo/bootstrap.svg";
 import git from "../img/logo/git.svg";
 import github from "../img/logo/github.svg";
 import npm from "../img/logo/npm.svg";
+import Zoom from "react-reveal/Zoom";
+import Pulse from "react-reveal/Pulse";
 
 const Skill = () => {
   return (
     <div className='skill' id='skill'>
       <div className='skill-container'>
-        <h2>I have experiences with these technologies</h2>
+        <Pulse>
+          <h2>I have experiences with these technologies</h2>
+        </Pulse>
         <div className='logo-container'>
-          <div className='card'>
-            <h4>HTML</h4>
-            <img src={html} alt='html-logo' />
-          </div>
+          <Pulse>
+            <div className='card'>
+              <h4>HTML</h4>
+              <img src={html} alt='html-logo' />
+            </div>
+          </Pulse>
 
           <div className='card'>
             <h4>CSS</h4>

@@ -1,7 +1,6 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import "../style/email.css";
 import emailjs from "emailjs-com";
-import Modal from "./Modal";
 
 const Email = ({ modalOpen }) => {
   const form = useRef();

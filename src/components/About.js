@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/about.css";
 import about from "../img/about.svg";
+import Zoom from "react-reveal/Zoom";
 
 const About = () => {
   return (
@@ -10,7 +11,9 @@ const About = () => {
           <img src={about} alt='about' />
         </div>
         <div className='about-text'>
-          <h1 className='title'>About Me</h1>
+          <Zoom top>
+            <h1 className='title'>About Me</h1>
+          </Zoom>
           <p>
             I consider myself a self-taught person constantly learning and
             always looking for new things to improve. I'm Looking forward for
